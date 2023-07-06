@@ -1,0 +1,82 @@
+.container{
+color: 0#1303f7;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+object-fit: contain;
+width: auto;
+height: auto;
+text-shadow: 0 2px 5px rgb (244, 248, 4);
+max-width: 100%;
+max-height: 100%;
+border: 100px;
+}
+.div {
+    width:auto;
+    height:auto;
+    background-color: rgb(0, 0, 0);
+    margin: 10px 10px ;
+    display: flow-root;
+   
+    max-width: fit-content;   
+    max-height: fit-content;
+}
+
+.course-outline{
+    color: rgb(222, 20, 215);
+    margin: auto;
+    flex: content;
+    text-align: center;
+    align-items: center;   
+}
+.course-info{
+    color: rgb(222, 20, 215);
+    text-shadow: #9525ead2;
+    margin: auto;
+    width: fit-content;
+    /* display:flexbox; */
+}
+.course-info .img{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.btn{
+    float: left;
+    left: 3%;
+    position:relative;
+}
+.btn i{
+    background-color: rgba(0, 24, 45, 0);
+}
+.course-outline h2{
+    color: green;
+}
+*{
+    background-color: rgba(0, 0, 0, 0);
+    
+    box-sizing: unset
+}
+/* .outline-border{
+    
+} */
+.course-info h1{
+    color: rgb(0, 128, 0);
+    text-align: center;
+}
+ .img{
+    width: 500px;
+    align-items: center;
+    display:flex;
+    flex-wrap: unset;
+    flex: auto;
+}
+.logo{
+    width: 100px
+}
+.dark-mode {
+    background-image: url(../service/img/wallpaper.jpg);
+   }
+   

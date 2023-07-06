@@ -1,0 +1,41 @@
+<div class="div" [ngClass]="{'dark-mode': darkModeEnabled}">
+    <div class="container">
+        <mat-slide-toggle (change)="myfun($event)">Backgrond Image</mat-slide-toggle>
+        <a href="#" class="course-outlin__back">
+            <button class="btn btn-primary">
+                <img class="logo" src="assets/images/exit.png" alt="back">
+            </button>
+        </a>
+    </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    
+
+    <div class="course-info">
+        <img class="img" src="{{course.img_url}}" alt="Course Image">
+            <br>
+            <br>
+ 
+        <h1>{{course. title}}</h1>
+        <ul>
+            <li><strong>"Overview:==</strong><i>{{course.description}}</i></li>
+            <br>
+            <li><strong>Duration:==</strong><i>{{course.duration}}</i></li>
+        
+            <li><strong>Fee:==</strong><i>{{course.fee}}</i></li>
+            
+        </ul>
+    </div>  
+    <br>
+    <br>
+
+    
+        <div class="course-outline">
+            <h2><strong>Course Outline</strong></h2>
+            <p class="list-group-item">{{course.course_outline}}</p>
+        </div>
+
+</div>
